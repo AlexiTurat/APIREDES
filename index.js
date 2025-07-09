@@ -14,8 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 var objetos=[
     {nombre:"Pedro", edad:20, nivel:"admin"},
     {nombre:"Pedro", edad:20, nivel:"admin"},
-    {nombre:"Leopoldo", edad:25, nivel:"admin"},
-    {nombre:"Octavio", edad:30, nivel:"admin"},
+    {nombre:"Leopoldo", edad:25, nivel:"user"},
+    {nombre:"Octavio", edad:30, nivel:"user"},
     {nombre:"Alejandra", edad:16, nivel:"admin"},
     {nombre:"Pedro", edad:223, nivel:"admin"},
     {nombre:"Jordan", edad:27, nivel:"admin"},
