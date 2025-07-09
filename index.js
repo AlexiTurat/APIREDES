@@ -12,13 +12,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 var objetos=[
-    {nombre:"Pedro", edad:20, nivel:"admin"},
-    {nombre:"Pedro", edad:20, nivel:"admin"},
+    {nombre:"Leopoldo", edad:20, nivel:"admin"},
+    {nombre:"Leopoldo", edad:20, nivel:"admin"},
     {nombre:"Leopoldo", edad:25, nivel:"admin"},
-    {nombre:"Octavio", edad:30, nivel:"admin"},
-    {nombre:"Alejandra", edad:16, nivel:"admin"},
-    {nombre:"Pedro", edad:223, nivel:"admin"},
-    {nombre:"Jordan", edad:27, nivel:"admin"},
+    {nombre:"Leopoldo", edad:30, nivel:"admin"},
+    {nombre:"Leopoldo", edad:16, nivel:"admin"},
+    {nombre:"Leopoldo", edad:223, nivel:"admin"},
+    {nombre:"Leopoldo", edad:27, nivel:"admin"},
   ]
  var datos;
 
