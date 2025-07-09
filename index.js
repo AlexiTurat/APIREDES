@@ -12,6 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 var objetos=[
+<<<<<<< HEAD
     {nombre:"Pedro", edad:20, nivel:"admin"},
     {nombre:"Pedro", edad:20, nivel:"admin"},
     {nombre:"Leopoldo", edad:25, nivel:"user"},
@@ -19,6 +20,15 @@ var objetos=[
     {nombre:"Alejandra", edad:16, nivel:"admin"},
     {nombre:"Pedro", edad:223, nivel:"admin"},
     {nombre:"Jordan", edad:27, nivel:"admin"},
+=======
+    {nombre:"Leopoldo", edad:20, nivel:"admin"},
+    {nombre:"Leopoldo", edad:20, nivel:"admin"},
+    {nombre:"Leopoldo", edad:25, nivel:"admin"},
+    {nombre:"Leopoldo", edad:30, nivel:"admin"},
+    {nombre:"Leopoldo", edad:16, nivel:"admin"},
+    {nombre:"Leopoldo", edad:223, nivel:"admin"},
+    {nombre:"Leopoldo", edad:27, nivel:"admin"},
+>>>>>>> 96712cd4e3cf4f2c7d10b08a50bba6f2853b930f
   ]
  var datos;
 
