@@ -1,3 +1,5 @@
+// Mayrim estuvo aqui :p
+// Attempt number 400
 const express = require('express');
 const mysql = require('mysql');
 const cors = require('cors');
@@ -14,7 +16,7 @@ var objetos=[
     {nombre:"Leopoldo", edad:25, nivel:"admin"},
     {nombre:"Octavio", edad:30, nivel:"admin"},
     {nombre:"Alejandra", edad:16, nivel:"admin"},
-    {nombre:"Sandra", edad:223, nivel:"admin"},
+    {nombre:"Pedro", edad:223, nivel:"admin"},
     {nombre:"Jordan", edad:27, nivel:"admin"},
   ]
  var datos;
